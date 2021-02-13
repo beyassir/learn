@@ -1,0 +1,6 @@
+<!-- <router-outlet></router-outlet> -->
+<app-child [item] ="'chield'" (newItemEvent)="addItem($event)"></app-child>
+
+<ul>
+    <li *ngFor="let item of items">{{item}}</li>
+  </ul>
